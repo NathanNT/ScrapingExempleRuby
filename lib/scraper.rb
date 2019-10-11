@@ -22,6 +22,12 @@ def scraper
     i += 1
   end
   puts crypto_array
+  return crypto_array
+end
+
+def testing(test)
+  crypto_array = scraper
+  return crypto_array[test]
 end
 
 scraper

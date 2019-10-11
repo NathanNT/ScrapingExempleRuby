@@ -40,6 +40,7 @@ def perform
     parsed_city << { townhall_names[i] => city_emails[i] }
   end
   puts parsed_city
+  return parsed_city
 end
 
 perform
