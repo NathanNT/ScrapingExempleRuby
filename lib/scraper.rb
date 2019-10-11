@@ -9,7 +9,7 @@ def scraper
   crypto_price.size.times do |i|
     parsed_price << crypto_price[i].text
   end
-  crypto_name = page.css('a.currency-name-container')
+  crypto_name = page.css("td.text-left")
   parsed_name = []
   crypto_name.size.times do |i|
     parsed_name << crypto_name[i].text
