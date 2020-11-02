@@ -1,5 +1,1 @@
-1er exo => recup crypto
-
-2e exo => recup mail des mairie du val d'oise
-
-3e exo => recup mail des députés
+Programme de récuparations des maries du val d'oises, des députes et du cours des crypto monnaies 
